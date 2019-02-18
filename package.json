@@ -1,0 +1,49 @@
+{
+  "name": "acad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "laihongyu <laihongyu@foxmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node bin/serverProd.js",
+    "spider": "node bin/spider.js",
+    "spiderMaster": "node bin/spiderMaster.js",
+    "httpSpider": "node bin/httpSpider.js",
+    "test": "node bin/test.js",
+    "cstart": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "ctest": "react-app-rewired test --env=jsdom",
+    "ceject": "react-app-rewired eject"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.2.5",
+    "axios": "^0.18.0",
+    "chain-state": "^1.1.1",
+    "generic-pool": "^3.4.2",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-log4": "^2.3.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "laputa-log": "^1.0.2",
+    "moment": "^2.22.2",
+    "mongodb": "^3.0.5",
+    "rc-form": "^2.2.3",
+    "react-h5-audio-player": "^1.0.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "shadowsocks-single": "^1.2.4",
+    "socket.io": "^2.1.0",
+    "socks5-http-client": "^1.0.4",
+    "socks5-https-client": "^1.2.1"
+  },
+  "devDependencies": {
+    "antd": "^3.5.2",
+    "babel-plugin-import": "^1.7.0",
+    "react": "^16.3.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4"
+  }
+}
