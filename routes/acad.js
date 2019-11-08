@@ -6,7 +6,7 @@ const axios = require('axios')
 
 router.get('teacherList', async (ctx, next) => {
   await mongo.persist(async (client) => {
-    let res = await client.collection('teachers').find().sort({order: -1}).toArray()
+    let res = await client.collection('teachers').find().sort({order: -1}).limit(30).toArray()
     ctx.body = {
       ok: 1,
       message: 'success',
