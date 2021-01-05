@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "antd-mobile": "^2.2.5",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "chain-state": "^1.1.1",
     "generic-pool": "^3.4.2",
     "koa": "^2.5.0",
